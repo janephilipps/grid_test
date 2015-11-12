@@ -1,23 +1,5 @@
-.grid-container {
+table {
     width: 100%;
-    max-width: 1200px;
-}
-
-/* clearfix hack */
-.row:before,
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-[class*='col-'] {
-    float: left;
-    min-height: 1px;
-    width: 8.33%;
-    /* gutter */
-    padding: 12px;
-    background-color: #FFDCDC;
 }
 
 .col-1 {
@@ -66,25 +48,6 @@
 
 .col-12 {
     width: 100%;
-}
-
-/* setting border box on all elements inside the grid */
-
-.grid-container *{
-    box-sizing: border-box;
-}
-
-.outline, .outline *{
-    outline: 1px solid #F6A1A1; 
-}
-
-/* some extra column content styling */
-[class*='col-'] > p {
-    background-color: #FFC2C2; 
-    padding: 0;
-    margin: 0;
-    text-align: center; 
-    color: white; 
 }
 
 
